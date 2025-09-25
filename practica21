@@ -1,0 +1,5 @@
+// Ejercicio 21: charAt() para devolver el primer carácter de un string
+function primerCaracter(texto: string): string {
+  return texto.charAt(0);
+}
+console.log("21:", primerCaracter("Hola")); // "H"

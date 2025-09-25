@@ -1,7 +1,9 @@
-const calculateAge = (birthday) => {
+const calculateAge = (birthday: Date) => {
     var ageDifMs = Date.now() - birthday.getTime();
     var ageDate = new Date(ageDifMs);
 
     return Math.abs(ageDate.getUTCFullYear() - 1970);
-
 }
+
+//arreglado
+console.log(calculateAge(new Date("2008-05-20")));
